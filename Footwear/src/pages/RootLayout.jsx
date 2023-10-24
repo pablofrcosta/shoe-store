@@ -16,10 +16,10 @@ export default function RootLayout() {
             <Link to={"/"}><p>FootWear</p></Link>
           </div>
           <div>
-            <Link to={"/login"}><box-icon type='solid' name='user' size='3vw' color="white"></box-icon></Link>
-            <Link to={"/cart"}><box-icon name='cart' type='solid' size='3vw' color="white" ></box-icon></Link>
+            <Link to={"/login"} style={{ color: 'white' }}>LOGIN</Link>
+            <Link to={"/cart"} style={{ color: 'white' }}>CART</Link>
             {IsLoggedIn && (
-              <Link to={"/items"}><box-icon name='add-to-queue' type='solid' size='3vw' color="white"></box-icon></Link>
+              <Link to={"/items"}>items</Link>
             )}
           </div>
         </nav>

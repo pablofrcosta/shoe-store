@@ -1,5 +1,5 @@
 import { createContext, useState } from "react"
-import { initialItems } from "../components/StaticItems"
+import initialItems from "../../data.json"
 
 
 
